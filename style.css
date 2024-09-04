@@ -1,4 +1,77 @@
+section.digian {
+  background-color: #7335B7;
+}
 
 .nav {
-    display: flex;
-  }
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 25px;
+  color: white;
+  padding: 20px 0px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.home a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.home a:hover {
+  background-color: white;
+  color: black;
+}
+
+.nav .btn a {color: white;text-decoration: none;background-color: #F89343;padding:  8px 23px;border-radius: 5px;}
+
+.nav .btn:hover {
+  translate: 0px -3px;
+}.hero {
+  display: flex;
+  height: 700px;
+}.hero {}
+
+.hero-left img {
+  width: 555px;
+  margin-left: 165px;
+  margin-top: 25px;
+}
+.hero-right {
+  text-align: center;
+  color: white;
+  margin-top: 10%;
+}
+
+.hero-right h1 {
+  font-size: 40px;
+}
+
+.hero-right {}
+
+.hero-right p {
+  width: 563px;
+  font-size: 20px;
+  margin-top: -10px;
+  margin-bottom: 60px;
+}
+
+.hero-right a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgb(0 0 0 /0.3);
+  padding: 12px 27px;
+  border-radius: 5px;
+}
+
+.hero-right a:hover {
+  translate: 0px -3px;
+}
+
+.hero-right {}
